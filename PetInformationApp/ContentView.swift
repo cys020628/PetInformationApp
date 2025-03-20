@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  PetInformationApp
 //
-//  Created by 영석 on 3/19/25.
+//  Created by agmma on 2023/11/30.
 //
 
 import SwiftUI
@@ -10,12 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            ProfileView()
+            LikesView()
+            SkillView()
+            PhotosView()
         }
         .padding()
+        
     }
 }
 
